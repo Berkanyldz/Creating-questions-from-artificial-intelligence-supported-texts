@@ -8,9 +8,8 @@ from tkinter import font
 
 
 
-# OpenAI API anahtarınızı ayarlayın
 
-openai.api_key = "APİ-KEY"  # Anahtarınızı burada ayarlayın
+openai.api_key = "APİ-KEY"  
 
 
 
@@ -102,7 +101,7 @@ def generate_questions(metin, soru_sayisi):
 
     question_gen = QuestionGenerator()
 
-    output_text.delete(1.0, tk.END)  # Output text alanını temizle
+    output_text.delete(1.0, tk.END)  
 
     for i in range(soru_sayisi):
 
@@ -136,7 +135,6 @@ def on_generate_button_click():
 
 
 
-# tkinter arayüzü oluşturma
 
 def create_gui():
 
@@ -148,7 +146,7 @@ def create_gui():
 
     root.title("Soru ve Şıklar Oluşturucu")
 
-    root.configure(bg="#fafafa")  # Arka plan rengini değiştir
+    root.configure(bg="#fafafa") 
 
 
 
