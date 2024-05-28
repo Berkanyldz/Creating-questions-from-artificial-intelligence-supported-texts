@@ -10,7 +10,7 @@ from tkinter import font
 
 # OpenAI API anahtarınızı ayarlayın
 
-openai.api_key = "sk-proj-bJfPgnkLEKvCgsFoVFSDT3BlbkFJKlXaTFTH6KlrS4opUns6"  # Anahtarınızı burada ayarlayın
+openai.api_key = "APİ-KEY"  # Anahtarınızı burada ayarlayın
 
 
 
